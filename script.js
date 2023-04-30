@@ -25,7 +25,7 @@ const calculateTemp = () => {
     }
     else {
         result = fehtoCel(numberTemp);
-        document.getElementById('result').innerHTML = ` ${result} ° Celcius`
+        document.getElementById('result').innerHTML = ` ${result} ° Celsius`
         document.getElementById('result').style.width = "80%";
         document.getElementById('result').style.padding = "5px";
     }
